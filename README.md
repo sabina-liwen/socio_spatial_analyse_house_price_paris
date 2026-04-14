@@ -6,8 +6,6 @@ This project explores housing price variation in Paris using the French DVF (Dem
 
 The study focuses on predicting the price per square meter (€/m²) for apartment transactions in Paris.
 
----
-
 ## Data
 
 - Source: French DVF dataset (open government data)
@@ -17,8 +15,6 @@ The study focuses on predicting the price per square meter (€/m²) for apartme
   - Sales only (`nature_mutation = Vente`)
   - Single-lot transactions (`nombre_lots = 1`)
   - Removal of missing values and outliers
-
----
 
 ## Data Preparation
 
@@ -43,7 +39,7 @@ log_prix_m2 = np.log(prix_m2)
 
 ⸻
 
-Features
+## Features
 
 Numerical Features
 	•	Surface area (surface_reelle_bati)
